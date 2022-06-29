@@ -1,6 +1,7 @@
 import React from "react";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiOutlineTwitter } from "react-icons/ai";
+import{FiInstagram} from "react-icons/fi"
 import "../footer/footer.css"
 
 function Footer() {
@@ -27,21 +28,21 @@ function Footer() {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="https://linkedin.com">
+        <a href="https://www.linkedin.com/in/eric-boyer-810678211/" target="_blank" rel="noreferrer" >
           {" "}
           <AiFillLinkedin />{" "}
         </a>
-        <a href="https://linkedin.com">
+        <a href="https://instagram.com" target="_blank" rel="noreferrer" >
           {" "}
-          <AiFillLinkedin />{" "}
+          <FiInstagram />{" "}
         </a>
-        <a href="https://twitter.com">
+        <a href="https://twitter.com" target="_blank" rel="noreferrer" >
           {" "}
           <AiOutlineTwitter />{" "}
         </a>
       </div>
       <div className="footer__copyright">
-        <small>portfolio from Eric Boyer</small>
+        <small> By Eric Boyer</small>
       </div>
     </footer>
   );

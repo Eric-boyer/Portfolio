@@ -1,13 +1,11 @@
 footer{
-    background: #4db5FF;
+    background: #034777;;
     padding: 8rem;
     text-align: center;
     font-size: 0.9rem;
     margin-top: 7rem;
 }
-footer a{
-    color: #2c2c6c;;
-}
+
 .footer__logo{
 font-size: 2rem;
 font-weight: bold;

@@ -57,6 +57,10 @@
 .about__content p {
   margin: 2rem 0 2.6rem;
 }
+.texte__experience{
+  text-align: justify;
+ line-height: 1.6rem;
+}
 
 /*======================================== media queries (medium) ==============================*/
 @media screen and (max-width: 1024px) {

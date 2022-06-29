@@ -58,6 +58,12 @@ header {
   font-weight: 300;
   font-size: 0.9rem;
 }
+.scroll__down::after{
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background: #4db5ff;
+}
 /*======================================== media queries (medium) ==============================*/
 @media screen and (max-width: 1024px) {
   header {

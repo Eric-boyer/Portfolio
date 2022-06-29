@@ -28,7 +28,7 @@ function portfolio() {
             rel="noreferrer"
             className="btn btn-primary"
           >
-            Live Demo
+            Netlify Demo
           </a>
          </div>
         </article>
@@ -52,7 +52,7 @@ function portfolio() {
             rel="noreferrer"
             className="btn btn-primary"
           >
-            Live Demo
+           Netlify Demo
           </a>
          </div>
         </article>
@@ -76,7 +76,7 @@ function portfolio() {
             rel="noreferrer"
             className="btn btn-primary"
           >
-            Live Demo
+           Netlify Demo
           </a>
          </div>
         </article>
@@ -100,7 +100,7 @@ function portfolio() {
             rel="noreferrer"
             className="btn btn-primary"
           >
-            Live Demo
+           Netlify Demo
           </a>
          </div>
         </article>
@@ -124,7 +124,7 @@ function portfolio() {
             rel="noreferrer"
             className="btn btn-primary"
           >
-            Live Demo
+            Netlify Demo
           </a>
          </div>
         </article>
@@ -148,7 +148,7 @@ function portfolio() {
             rel="noreferrer"
             className="btn btn-primary"
           >
-            Live Demo
+           Netlify Demo
           </a>
          </div>
         </article>

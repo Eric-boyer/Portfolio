@@ -5,7 +5,7 @@ function CV() {
   return (
     <div className='cv'>
         <a href={cv} download className='btn'>Telecharger le CV</a>
-        <a href='#contact' className='btn btn-primary'>a propos</a>
+        <a href='#about' className='btn btn-primary'>a propos</a>
     </div>
   )
 }
