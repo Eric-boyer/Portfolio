@@ -4,6 +4,7 @@ import { AiFillHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BsJournalBookmark } from "react-icons/bs";
 import { RiContactsBook2Fill } from "react-icons/ri";
+import { MdScreenSearchDesktop } from "react-icons/md";
 
 import { useState } from "react";
 
@@ -30,19 +31,34 @@ function Nav() {
       >
         <AiOutlineUser />
       </a>
-      <a href="#experience"  onClick={() => {
+      <a
+        href="#experience"
+        onClick={() => {
           setActiveNav("#experience");
         }}
-        className={activeNav === "#experience" ? "active" : null}>
+        className={activeNav === "#experience" ? "active" : null}
+      >
         <BsJournalBookmark />
       </a>
-      <a href="#contact"  onClick={() => {
+
+      <a
+        href="#portfolio"
+        onClick={() => {
+          setActiveNav("#portfolio");
+        }}
+        className={activeNav === "#portfolioo" ? "active" : null}
+      >
+        <MdScreenSearchDesktop />
+      </a>
+      <a
+        href="#contact"
+        onClick={() => {
           setActiveNav("#contact");
         }}
-        className={activeNav === "#contact" ? "active" : null}>
+        className={activeNav === "#contact" ? "active" : null}
+      >
         <RiContactsBook2Fill />
       </a>
-      
     </nav>
   );
 }

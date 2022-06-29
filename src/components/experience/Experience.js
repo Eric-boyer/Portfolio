@@ -8,7 +8,11 @@ import { DiJavascript1 } from "react-icons/di";
 import{SiNetlify} from "react-icons/si"
 import {SiTypescript} from "react-icons/si"
 import{SiExpo} from "react-icons/si"
-
+import{GrHeroku} from "react-icons/gr"
+import{DiMongodb} from "react-icons/di"
+import{GrNode} from "react-icons/gr"
+import{TbBrandNextjs} from "react-icons/tb"
+import {TbBrandReactNative} from "react-icons/tb"
 
 
 function Experience() {
@@ -28,10 +32,10 @@ function Experience() {
               </div>
             </article>
             <article className="experience__details">
-              <DiCss3 className="experience__details-icon" />
+              <DiCss3 style={{color:"white"}} className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Intermediaire</small>
+                <small  className="text-light">Intermediaire</small>
               </div>
             </article>
             <article className="experience__details">
@@ -42,7 +46,7 @@ function Experience() {
               </div>
             </article>
             <article className="experience__details">
-              <FaReact />
+              <TbBrandReactNative />
               <div>
                 <h4>REACT NATIVE</h4>
                 <small className="text-light">Intermediaire</small>
@@ -52,7 +56,7 @@ function Experience() {
               <SiTailwindcss />
               <div>
                 <h4>TAILWIND</h4>
-                <small className="text-light">Intermediaire</small>
+                <small className="text-light">Debutant</small>
               </div>
             </article>
             <article className="experience__details">
@@ -79,7 +83,7 @@ function Experience() {
               </div>
             </article>
             <article className="experience__details">
-              <FaReact />
+              <TbBrandNextjs />
               <div>
                 <h4>Next</h4>
                 <small className="text-light">Debutant</small>
@@ -100,7 +104,7 @@ function Experience() {
           <h3>Backend Developement</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <FaReact />
+              <GrNode />
               <div>
                 {" "}
                 <h4>Node Js</h4>
@@ -108,7 +112,7 @@ function Experience() {
               </div>
             </article>
             <article className="experience__details">
-              <FaReact />
+              <DiMongodb />
               <div>
                 {" "}
                 <h4>Mongodb</h4>
@@ -124,7 +128,7 @@ function Experience() {
               </div>
             </article>
             <article className="experience__details">
-              <FaReact />
+              <GrHeroku />
               <div>
                 {" "}
                 <h4>Heroku</h4>

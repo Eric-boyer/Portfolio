@@ -7,7 +7,6 @@ import Nav from "./components/nav/Nav";
 import Portfolio from "./components/portfolio/Portfolio";
 
 import Experience from "./components/experience/Experience";
-import Temoignage from "./components/temoignage/Temoignage";
 
 function App() {
   return (
@@ -16,9 +15,7 @@ function App() {
       <Nav />
       <About />
       <Experience />
-     
       <Portfolio />
-      <Temoignage />
       <Contact />
       <Footer />
     </div>
