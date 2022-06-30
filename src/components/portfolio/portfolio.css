@@ -10,19 +10,21 @@
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: all 400ms ease;
-  box-shadow: 10px -8px #4db5ff ;
+  box-shadow: 10px -8px #4db5ff;
 }
 
 .portfolio__item:hover {
   border-color: #4db5ff;
   background: transparent;
+  transform: scale(1.1)
+
 }
 
 .portfolio__item-image {
   border-radius: 1.5rem;
   overflow: hidden;
 }
-.portfolio__item-image1{
+.portfolio__item-image1 {
   border-radius: 1.5rem;
   overflow: hidden;
   height: 13.3rem;
