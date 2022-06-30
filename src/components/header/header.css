@@ -53,17 +53,12 @@ header {
 .scroll__down {
   position: absolute;
   right: -2.3rem;
-  bottom: -0.1rem;
+  bottom: 5.5rem;
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
 }
-.scroll__down::after{
-  content: "";
-  width: 1px;
-  height: 2rem;
-  background: #4db5ff;
-}
+
 /*======================================== media queries (medium) ==============================*/
 @media screen and (max-width: 1024px) {
   header {

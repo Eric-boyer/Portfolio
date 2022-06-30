@@ -1,6 +1,11 @@
 import React from "react";
 import "./portfolio.css";
-import IVIN from "../../assets/img/IVIN.jpeg";
+import Vinted3 from "../../assets/Vinted3.png";
+import HappyCow from "../../assets/HappyCow.png";
+import Tripadvisor5 from "../../assets/Tripadvisor5.png";
+import Netflix3 from "../../assets/Netflix3.png";
+import Marvel from "../../assets/Marvel.png";
+import airbnb2 from "../../assets/airbnb2.png";
 
 function portfolio() {
   return (
@@ -10,9 +15,9 @@ function portfolio() {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IVIN} alt="" />
+            <img src={Vinted3} alt="" />
           </div>
-          <h3>portfolio title</h3>
+          <h3>Clone Vinted</h3>
          <div className="portfolio__item-cta">
          <a
             href="https://github.fr"
@@ -34,9 +39,9 @@ function portfolio() {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IVIN} alt="" />
+            <img src={HappyCow} alt="" />
           </div>
-          <h3>portfolio title</h3>
+          <h3>Clone HappyCow</h3>
          <div className="portfolio__item-cta">
          <a
             href="https://github.fr"
@@ -58,9 +63,9 @@ function portfolio() {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IVIN} alt="" />
+            <img src={Tripadvisor5} alt="" />
           </div>
-          <h3>portfolio title</h3>
+          <h3>Clone Tripadvisor</h3>
          <div className="portfolio__item-cta">
          <a
             href="https://github.fr"
@@ -82,9 +87,9 @@ function portfolio() {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IVIN} alt="" />
+            <img src={Netflix3} alt="" />
           </div>
-          <h3>portfolio title</h3>
+          <h3>Clone Netflix</h3>
          <div className="portfolio__item-cta">
          <a
             href="https://github.fr"
@@ -106,9 +111,9 @@ function portfolio() {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IVIN} alt="" />
+            <img src={Marvel} alt="" />
           </div>
-          <h3>portfolio title</h3>
+          <h3>Clone Marvel</h3>
          <div className="portfolio__item-cta">
          <a
             href="https://github.fr"
@@ -129,10 +134,10 @@ function portfolio() {
          </div>
         </article>
         <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IVIN} alt="" />
+          <div className="portfolio__item-image1">
+            <img src={airbnb2} alt="" />
           </div>
-          <h3>portfolio title</h3>
+          <h3>Clone AirBnB</h3>
          <div className="portfolio__item-cta">
          <a
             href="https://github.fr"
