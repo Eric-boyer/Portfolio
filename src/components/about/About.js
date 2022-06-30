@@ -31,7 +31,7 @@ function About() {
             <article className="about__card">
               <FaFolder className="about__icon" />
               <h5>Projects</h5>
-              <small>5+ Completed</small>
+              <small>6+ Completed</small>
             </article>
           </div>
 

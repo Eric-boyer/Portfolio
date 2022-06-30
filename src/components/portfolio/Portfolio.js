@@ -124,7 +124,7 @@ function portfolio() {
             Github
           </a>
           <a
-            href="https://github.fr"
+            href="https://phenomenal-souffle-17b465.netlify.app"
             target="_blank"
             rel="noreferrer"
             className="btn btn-primary"
