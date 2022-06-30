@@ -15,6 +15,7 @@ header {
   display: flex;
   gap: 1.2rem;
   justify-content: center;
+
 }
 
 /*=========================== social header ========================*/
@@ -39,7 +40,7 @@ header {
 
 .moi {
   background: linear-gradient(#41abf6, transparent);
-  background: #034777;
+  
   width: 22rem;
   height: 27rem;
   position: absolute;
@@ -47,6 +48,12 @@ header {
   margin-top: 4rem;
   border-radius: 12rem 12rem 0rem 0rem;
   overflow: hidden;
+}
+.moi > img{
+  height: 70%;
+  
+  width: 100%;
+  object-fit:cover ;
 }
 /*=========================== scroll ========================*/
 

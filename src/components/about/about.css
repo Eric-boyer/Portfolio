@@ -36,6 +36,8 @@
   text-align: center;
   transform: all 400ms ease;
   cursor: pointer;
+  box-shadow: 10px -8px #4db5ff;
+
 }
 .about__card:hover {
   background: transparent;

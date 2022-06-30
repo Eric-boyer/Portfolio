@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import CV from "../header/CV";
-import Moi2 from "../../assets/Moi2.png"
+import Mac from "../../assets/Mac.jpeg"
 import HeaderSocial from "./HeaderSocial";
 
 function Header() {
@@ -14,7 +14,7 @@ function Header() {
         <CV />
         <HeaderSocial/>
         <div className="moi">
-          <img src={Moi2} alt="moi"/>
+          <img src={Mac} alt="moi"/>
         </div>
         <a href="#contact" className="scroll__down">Scroll Down Please</a>
       </div>

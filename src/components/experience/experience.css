@@ -2,13 +2,16 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
+
 }
 .experience__container > div {
   background: #2c2c6c;
-  padding: 2.4rem 5rem;
+  padding: 5.4rem 5rem;
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: all 400ms ease;
+  box-shadow: 10px -8px #4db5ff;
+
 }
 .experience__container > div:hover {
   cursor: all-scroll;

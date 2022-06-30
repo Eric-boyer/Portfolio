@@ -1,4 +1,6 @@
 import React from "react";
+import { toast } from 'react-toastify';
+
 import { useRef } from "react";
 import emailjs from '@emailjs/browser';
 import { FiMail } from "react-icons/fi";
@@ -18,7 +20,9 @@ function Contact() {
         "template_71cqnwh",
         form.current,
         "bjH-IDD0BHvnIyOR3"
+       
       )
+      toast.success("Votre message a été envoyé avec succes!! A bientôt")
      e.target.reset()
   };
 
@@ -46,7 +50,7 @@ function Contact() {
               <h4>Whats up</h4>
               <h5>+ 33 0650023115</h5>
               <a
-                href="https://api.whatsapp.com/send?phone=00330650023115"
+                href="https://api.whatsapp.com/send?phone=0650023115"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -57,7 +61,7 @@ function Contact() {
               <BsTelephone className="contact__option-icon" />
               <h4>06 50 02 31 15</h4>
               <a
-                href="https://api.whatsapp.com/send?phone=00330650023115"
+                href="https://api.whatsapp.com/send?phone=0650023115"
                 target="_blank"
                 rel="noreferrer"
               >

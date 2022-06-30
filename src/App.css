@@ -90,6 +90,7 @@ a:hover {
   cursor: pointer;
   border: 1px solid #4db5FF;
   transition: all 400ms ease;
+
 }
 
 .btn:hover {
@@ -101,6 +102,7 @@ a:hover {
 .btn-primary {
   background:#4db5FF;
   color: #1f1f38;
+
 }
 
 img {
@@ -131,4 +133,13 @@ img {
     section > h2 {
       margin-top: 2rem;
     }
+  }
+  .Toastify__toast{
+border-radius: 1rem;
+  }
+  .Toastify__toast--success{
+    color:white;
+    background-color: #2c2c6c ;
+    border: 1px solid #4db5FF ;
+    font-size: 14px;
   }

@@ -12,19 +12,19 @@ function Footer() {
       </a>
       <ul className="permalinks">
         <li>
-          <a href="#">home</a>{" "}
+          <a href="#"></a>{" "}
         </li>
         <li>
-          <a href="#about">about</a>{" "}
+          <a href="#about"></a>{" "}
         </li>
         <li>
-          <a href="#experience">experience</a>{" "}
+          <a href="#experience"></a>{" "}
         </li>
         <li>
-          <a href="#contact">contact</a>{" "}
+          <a href="#contact"></a>{" "}
         </li>
         <li>
-          <a href="#portfolio">portfolio</a>{" "}
+          <a href="#portfolio"></a>{" "}
         </li>
       </ul>
       <div className="footer__socials">

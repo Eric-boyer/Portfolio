@@ -3,7 +3,7 @@ import "./nav.css";
 import { AiFillHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BsJournalBookmark } from "react-icons/bs";
-import { RiContactsBook2Fill } from "react-icons/ri";
+import { BsFillTelephoneOutboundFill } from "react-icons/bs";
 import { MdScreenSearchDesktop } from "react-icons/md";
 
 import { useState } from "react";
@@ -57,7 +57,7 @@ function Nav() {
         }}
         className={activeNav === "#contact" ? "active" : null}
       >
-        <RiContactsBook2Fill />
+        <BsFillTelephoneOutboundFill />
       </a>
     </nav>
   );

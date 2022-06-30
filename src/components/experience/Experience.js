@@ -28,35 +28,35 @@ function Experience() {
               <AiFillHtml5 />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Intermediaire</small>
+                <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__details">
               <DiCss3 style={{color:"white"}} className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
-                <small  className="text-light">Intermediaire</small>
+                <small  className="text-light"></small>
               </div>
             </article>
             <article className="experience__details">
               <FaReact />
               <div>
                 <h4>REACT</h4>
-                <small className="text-light">Intermediaire</small>
+                <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__details">
               <TbBrandReactNative />
               <div>
                 <h4>REACT NATIVE</h4>
-                <small className="text-light">Intermediaire</small>
+                <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__details">
               <SiTailwindcss />
               <div>
                 <h4>TAILWIND</h4>
-                <small className="text-light">Debutant</small>
+                <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__details">
@@ -64,14 +64,14 @@ function Experience() {
               <div>
                 {" "}
                 <h4>JAVASCRIPT</h4>
-                <small className="text-light">Intermediaire</small>
+                <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__details">
               <SiNetlify />
               <div>
                 <h4>NETLIFY</h4>
-                <small className="text-light">Intermediaire</small>
+                <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__details">
@@ -79,14 +79,14 @@ function Experience() {
               <div>
                 {" "}
                 <h4>TYPESCRIPT</h4>
-                <small className="text-light">Debutant</small>
+                <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__details">
               <TbBrandNextjs />
               <div>
                 <h4>Next</h4>
-                <small className="text-light">Debutant</small>
+                <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__details">
@@ -94,7 +94,7 @@ function Experience() {
               <div>
                 {" "}
                 <h4>Expo</h4>
-                <small className="text-light">Intermediaire</small>
+                <small className="text-light"></small>
               </div>
             </article>
           </div>

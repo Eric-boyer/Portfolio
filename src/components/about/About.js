@@ -19,14 +19,19 @@ function About() {
           <div className="about__cards">
             <article className="about__card">
               <GiDiploma className="about__icon" />
-              <h5>Scool</h5>
+              <h5>School</h5>
               <small>3+ Month Le Reacteur </small>
               <small></small>
             </article>
             <article className="about__card">
               <GiDiploma className="about__icon" />
-              <h5>Scool</h5>
+              <h5>School</h5>
               <small>2+ Month FreeCodeCamp</small>
+            </article>
+            <article className="about__card">
+              <GiDiploma className="about__icon" />
+              <h5>School</h5>
+              <small>2+ Month CodeAcademy</small>
             </article>
             <article className="about__card">
               <FaFolder className="about__icon" />
@@ -36,30 +41,39 @@ function About() {
           </div>
 
           <p className="texte__experience">
-            Hello ! ! je m'appelle Eric. J'ai découvert le code en 2020 lorsque
-            j'ai fait connaissance d'une proche amie  spécialisée dans
-            ce domaine, elle m'a initié dans ce milieu que j'ai tout de suite
-            adopté. J'ai donc, suite à une reconversion ; saisi l'occasion de
-            me lancer dans une formation d'abord en ligne (FreeCodeCamp,
-            CodeAcademy) et ensuite une formation plus intensive à Le Réacteur
-            une école spécialisée dans la programmation, située dans le centre
-            de Paris. C'était l'occasion idéale pour moi d'être accompagné par
-            une équipe experte. La surprise, étaient ma première impression de voir
-            ce monde foisonnant qu'est la programmation avec ces langages, son
-            dynamisme, ses codes; en somme un écosystème constamment en mouvement dont je ne mesurais pas bien la portée. Il m'a
-            paru très clair que j'en savais peu et que mon apprentissage en
-            était qu'à ses balbutiements, sans oublier le choix du langage qui est crucial, car
+            Hello !   J'ai découvert le code en 2020 lorsque
+            j'ai fait connaissance d'une proche amie spécialisée dans ce
+            domaine, elle m'a initié dans ce milieu que j'ai tout de suite
+            adopté. Suite à une reconversion j'ai saisi l'occasion de me
+            lancer dans une formation d'abord en ligne (FreeCodeCamp,
+            CodeAcademy) et ensuite une formation plus intensive à
+            { <a href="https://www.lereacteur.io/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <strong style={{ color: "yellow" }}> Le Réacteur </strong>
+                </a>  
+            }
+            un Bootcamp spécialisé dans la programmation. C'était l'occasion idéale pour moi d'être accompagné par
+            une équipe experte. Dès le début Il m'a paru très
+            clair que j'en savais peu et que mon apprentissage en était qu'à ses
+            balbutiements, sans oublier le choix du langage qui est crucial, car
             pour s'assurer de trouver un poste à l'issue de la formation il
             fallait choisir celles qui avaient le vent en poupe :
-           {<strong style={{color:"yellow"}}> React, ReactNative, Javascript, NodeJs, Html, Css</strong>} qui sont devenus
-            mes outils de prédilection, avec comme amiral navire {<strong style={{color:"yellow"}}>React</strong>}.
+            {
+              <strong style={{ color: "yellow" }}>
+                
+                Javascript, ReactNative,React, NodeJs, Html, Css </strong>
+            }
+             qui sont devenus mes outils de prédilection, avec comme amiral
+            navire {<strong style={{ color: "yellow" }}>Javascript</strong>}.
             <br />
             <br />
-            Conscient néanmoins de la fragilité de mes compétences acquises, il est
-            me semble évident qu'il faut pratiquer en milieu professionnel pour
-            les consolider et en forger de nouvelles. C'est pourquoi je soumets
-            ma candidature pour un stage d'au moins 6 mois qui me permettra de monter plus vite en
-            compétence.
+            Conscient néanmoins de la fragilité de mes compétences acquises, il
+             me semble évident qu'il faut pratiquer en milieu professionnel
+            pour les consolider et en forger de nouvelles. C'est pourquoi je
+            soumets ma candidature pour un stage d'au moins 6 mois qui me
+            permettra de monter plus vite en compétence.
           </p>
           <a href="#contact" className="btn btn-primary">
             Parlons !
