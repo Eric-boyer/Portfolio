@@ -85,7 +85,7 @@ function Experience() {
             <article className="experience__details">
               <TbBrandNextjs />
               <div>
-                <h4>Next</h4>
+                <h4>NextJs</h4>
                 <small className="text-light"></small>
               </div>
             </article>
@@ -108,7 +108,7 @@ function Experience() {
               <div>
                 {" "}
                 <h4>Node Js</h4>
-                <small className="text-light">Intermediaire</small>
+                <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__details">
@@ -116,7 +116,7 @@ function Experience() {
               <div>
                 {" "}
                 <h4>Mongodb</h4>
-                <small className="text-light">Intermediaire</small>
+                <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__details">
@@ -124,7 +124,7 @@ function Experience() {
               <div>
                 {" "}
                 <h4>Express</h4>
-                <small className="text-light">Intermediaire</small>
+                <small className="text-light"></small>
               </div>
             </article>
             <article className="experience__details">
@@ -132,7 +132,7 @@ function Experience() {
               <div>
                 {" "}
                 <h4>Heroku</h4>
-                <small className="text-light">Intermediaire</small>
+                <small className="text-light"></small>
               </div>
             </article>
           </div>

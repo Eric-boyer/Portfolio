@@ -2,7 +2,7 @@ import React from "react";
 import "./nav.css";
 import { AiFillHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
-import { BsJournalBookmark } from "react-icons/bs";
+import { GiStrong } from "react-icons/gi";
 import { BsFillTelephoneOutboundFill } from "react-icons/bs";
 import { MdScreenSearchDesktop } from "react-icons/md";
 
@@ -38,7 +38,7 @@ function Nav() {
         }}
         className={activeNav === "#experience" ? "active" : null}
       >
-        <BsJournalBookmark />
+        <GiStrong style={{size:'19'}} />
       </a>
 
       <a

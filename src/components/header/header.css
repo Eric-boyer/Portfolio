@@ -39,7 +39,6 @@ header {
 
 .moi {
   background: linear-gradient(#41abf6, transparent);
-
   width: 22rem;
   height: 27rem;
   position: absolute;
@@ -49,15 +48,19 @@ header {
   overflow: hidden;
   transform: all 400ms ease;
 
+  
 }
 .moi > img {
   height: 70%;
   width: 100%;
   object-fit: cover;
 }
-.moi:hover{
-  transform: scale(1.1);
-  transform:  all 400ms ease;
+.moi:hover {
+
+  cursor: all-scroll;
+  transform: rotate(180deg);
+
+
 }
 /*=========================== scroll ========================*/
 
@@ -69,6 +72,17 @@ header {
   font-weight: 300;
   font-size: 0.9rem;
 }
+/* .scroll__down:after {
+  content: "";
+  width: 1px;
+  height: 3rem;
+  background: #41abf6;
+  bottom: 5.5rem;
+  position: absolute;
+  transform: rotate(90deg);
+  top: -3.3rem;
+  left: 7rem;
+} */
 
 /*======================================== media queries (medium) ==============================*/
 @media screen and (max-width: 1024px) {

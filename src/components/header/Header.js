@@ -10,13 +10,14 @@ function Header() {
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Eric Boyer</h1>
-        <h5 className="text-light">Fullstack Developer</h5>
+        <h5 className="text-light">Fullstack Developer ( En Devenir )</h5>
         <CV />
         <HeaderSocial/>
         <div className="moi">
           <img src={Mac} alt="moi"/>
         </div>
-        <a href="#contact" className="scroll__down">Scroll Down Please</a>
+        <a href="#portfolio" className="scroll__down">Scroll Down Please</a>
+        <a className="T"></a>
       </div>
     </header>
   );
