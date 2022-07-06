@@ -52,7 +52,7 @@ function portfolio() {
             Github
           </a>
           <a
-            href="https://github.fr"
+            href="eric-boyer-clone-happy-cow.netlify.app"
             target="_blank"
             rel="noreferrer"
             className="btn btn-primary"
