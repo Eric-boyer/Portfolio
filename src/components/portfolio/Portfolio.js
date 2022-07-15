@@ -76,7 +76,7 @@ function portfolio() {
             Github
           </a>
           <a
-            href="https://github.fr"
+            href="https://eric-tripadvisor.netlify.app/"
             target="_blank"
             rel="noreferrer"
             className="btn btn-primary"
