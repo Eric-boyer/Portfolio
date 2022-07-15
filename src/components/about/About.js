@@ -55,21 +55,21 @@ function About() {
                 </a>  
             }
             un Bootcamp spécialisé dans la programmation. C'était l'occasion idéale pour moi d'être accompagné par
-            une équipe experte. Dès le début Il m'a paru très
+            une équipe d'expert. Dès le début Il m'a paru très
             clair que j'en savais peu et que mon apprentissage en était qu'à ses
             balbutiements, sans oublier le choix du langage qui est crucial, car
             pour s'assurer de trouver un poste à l'issue de la formation il
-            fallait choisir celles qui avaient le vent en poupe :
-            {
+            fallait choisir celles qui avaient le vent en poupe: 
+             {
               <strong style={{ color: "yellow" }}>
                 
-                Javascript, ReactNative,React, NodeJs, Html, Css </strong>
+                 Javascript, ReactNative,React, NodeJs, Html, Css </strong>
             }
              qui sont devenus mes outils de prédilection, avec comme amiral
             navire {<strong style={{ color: "yellow" }}>Javascript</strong>}.
             <br />
             <br />
-            Conscient néanmoins de la fragilité de mes compétences acquises, il
+             Néanmoins, il
              me semble évident qu'il faut pratiquer en milieu professionnel
             pour les consolider et en forger de nouvelles. C'est pourquoi je
             soumets ma candidature pour un stage d'au moins 6 mois qui me
