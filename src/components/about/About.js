@@ -42,7 +42,7 @@ function About() {
 
           <p className="texte__experience">
             Hello !   J'ai découvert le code en 2020 lorsque
-            j'ai fait connaissance d'une proche amie spécialisée dans ce
+            j'ai fait connaissance d'une amie spécialisée dans ce
             domaine, elle m'a initié dans ce milieu que j'ai tout de suite
             adopté. Suite à une reconversion j'ai saisi l'occasion de me
             lancer dans une formation d'abord en ligne (FreeCodeCamp,
@@ -54,7 +54,7 @@ function About() {
                   <strong style={{ color: "yellow" }}> Le Réacteur </strong>
                 </a>  
             }
-            un Bootcamp spécialisé dans la programmation. C'était l'occasion idéale pour moi d'être accompagné par
+            un Bootcamp spécialisé dans la programmation et la gestion de projet. C'était l'occasion idéale pour moi d'être accompagné par
             une équipe d'expert. Dès le début Il m'a paru très
             clair que j'en savais peu et que mon apprentissage en était qu'à ses
             balbutiements, sans oublier le choix du langage qui est crucial, car
@@ -71,9 +71,7 @@ function About() {
             <br />
              Néanmoins, il
              me semble évident qu'il faut pratiquer en milieu professionnel
-            pour les consolider et en forger de nouvelles. C'est pourquoi je
-            soumets ma candidature pour un stage d'au moins 6 mois qui me
-            permettra de monter plus vite en compétence.
+            pour les consolider et en forger de nouvelles. 
           </p>
           <a href="#contact" className="btn btn-primary">
             Parlons !
