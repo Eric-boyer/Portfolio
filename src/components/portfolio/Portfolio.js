@@ -28,7 +28,7 @@ function portfolio() {
             Github
           </a>
           <a
-            href="https://vinted-eric.netlify.app/"
+            href="https://zingy-panda-a13d41.netlify.app"
             target="_blank"
             rel="noreferrer"
             className="btn btn-primary"
