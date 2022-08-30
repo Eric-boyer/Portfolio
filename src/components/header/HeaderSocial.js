@@ -8,7 +8,7 @@ function HeaderSocial() {
       <a href="https://linkedin.fr" target="_blank" rel="noreferrer">
         <BsLinkedin />
       </a>
-      <a href="https://github.fr" target="_blank" rel="noreferrer">
+      <a href="https://github.com/Eric-boyer?tab=repositories" target="_blank" rel="noreferrer">
         <BsGithub />
       </a>
     </div>
